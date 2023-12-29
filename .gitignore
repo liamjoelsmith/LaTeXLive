@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# qmake
+*.qmake.*
+
+# Makefile
+Makefile
+
+# pdf's
+*.pdf
+
+# LaTeX
+*.tex
+*.aux
+*.log
