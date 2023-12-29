@@ -19,3 +19,4 @@ This has only been tested on an Ubuntu 18.04 environment.
 3. Create a ```*.tex``` file within the ```/src``` directory.
 4. Run ```./app [your_tex_file].tex```
 
+https://github.com/liamjoelsmith/LaTeXLive/assets/63285720/90f56cc4-327f-4768-af14-bfe971fc4982
