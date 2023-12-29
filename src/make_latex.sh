@@ -1,5 +1,11 @@
 #!/bin/bash
 
-pdflatex -output-directory=output minimal.tex
+# Check if a filename was provided
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 filename"
+    exit 1
+fi
 
-mv output/minimal.pdf ..
+FILENAME="$1"
+
+pdflatex -output-directory=output $FILENAME.tex
