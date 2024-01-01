@@ -10,6 +10,7 @@ This has only been tested on an Ubuntu 18.04 environment.
 
 * Qt 5.9.5
 * texlive (for pdfLaTeX)
+* Poppler Qt5
 
 ## How to get set up?
 
